@@ -1,0 +1,18 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+     string[] valorUm = Console.ReadLine().Split(' ');
+            string[] valorDois = Console.ReadLine().Split(' ');
+            int codpeca = int.Parse(valorUm[0]); int codpeca2 = int.Parse(valorDois[0]);
+            int npeca = int.Parse(valorUm[1]); int npeca2 = int.Parse(valorDois[1]);
+            double preco = Double.Parse(valorUm[2]); double preco2 = Double.Parse(valorDois[2]);
+            double resultado;
+            resultado = (npeca * preco) + (npeca2 * preco2);
+            Console.WriteLine("VALOR A PAGAR: R$ {0:f2}", resultado);
+
+    }
+
+}
