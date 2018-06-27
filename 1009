@@ -1,0 +1,16 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+        string nome;
+            double salariofix,vendas,salarionovo;
+            nome = Console.ReadLine();
+            salariofix = Double.Parse(Console.ReadLine());
+            vendas = Double.Parse(Console.ReadLine());
+            salarionovo = salariofix+(vendas*0.15);
+            Console.WriteLine("TOTAL = R$ {0:f2}",salarionovo);
+
+    }
+
+}
