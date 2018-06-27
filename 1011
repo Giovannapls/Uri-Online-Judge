@@ -1,0 +1,13 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+double volume,r;
+r=Double.Parse(Console.ReadLine());
+volume=(4.0/3)*3.14159*(r*r*r);
+Console.WriteLine("VOLUME = {0:f3}", volume);
+
+    }
+
+}
