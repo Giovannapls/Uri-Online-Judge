@@ -1,0 +1,29 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+   string[] numeros=Console.ReadLine().Split(' ');
+     int A,B;
+     A=int.Parse(numeros[0]);
+     B=int.Parse(numeros[1]);
+     if(A%B==0||B%A==0)
+
+    {
+
+        Console.WriteLine("Sao Multiplos");
+
+    }
+
+    else
+
+    {
+
+        Console.WriteLine("Nao sao Multiplos");
+
+    }
+
+    }
+
+}
