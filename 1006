@@ -1,0 +1,15 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+   double A, B, C, MEDIA;
+            A = Double.Parse(Console.ReadLine());
+            B = Double.Parse(Console.ReadLine());
+            C = Double.Parse(Console.ReadLine());
+            MEDIA = ((A * 2) + (B *3) +(C*5))/ 10;
+            Console.WriteLine("MEDIA = {0:f1}", MEDIA);
+
+    }
+
+}
