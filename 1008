@@ -1,0 +1,17 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+     int nfun, nhoras;
+            double salario, salhora;
+            nfun = int.Parse(Console.ReadLine());
+            nhoras = int.Parse(Console.ReadLine());
+            salhora = Double.Parse(Console.ReadLine());
+            salario = nhoras * salhora;
+            Console.WriteLine("NUMBER = {0}" + "\nSALARY = U$ {1:f2}",nfun, salario);
+
+    }
+
+}
