@@ -1,0 +1,21 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+ string[] valor = Console.ReadLine().Split(' ');
+            int inicio, fim, duracao = 0;
+            inicio = int.Parse(valor[0]);
+            fim = int.Parse(valor[1]);
+            if ((fim - inicio <= 0)) {
+                duracao = 24 + (fim-inicio);
+                Console.WriteLine("O JOGO DUROU {0} HORA(S)", duracao);
+            }
+            else
+            {
+                duracao = fim - inicio;
+                Console.WriteLine("O JOGO DUROU {0} HORA(S)", duracao);
+            }
+    }
+    }
