@@ -1,0 +1,42 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+  string[] valor = Console.ReadLine().Split(' ');
+            int cod = int.Parse(valor[0]);
+            int qnt = int.Parse(valor[1]);
+            double total;
+            if (cod == 1)
+            {
+                total = qnt * 4;
+                Console.WriteLine("Total: R$ {0:f2}", total);
+            }
+            else
+            if (cod == 2)
+            {
+                total = qnt * 4.50;
+                Console.WriteLine("Total: R$ {0:f2}", total);
+            }
+            else
+            if (cod == 3)
+            {
+                total = qnt * 5;
+                Console.WriteLine("Total: R$ {0:f2}", total);
+            }
+            else
+            if (cod == 4)
+            {
+                total = qnt * 2;
+                Console.WriteLine("Total: R$ {0:f2}", total);
+            }
+            else
+            if (cod == 5)
+            {
+                total = qnt * 1.50;
+                Console.WriteLine("Total: R$ {0:f2}", total);
+            }
+
+    }
+
+}
