@@ -1,0 +1,47 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+ string categoria1, categoria2, categoria3;
+            categoria1 = Console.ReadLine();
+            categoria2 = Console.ReadLine();
+            categoria3 = Console.ReadLine();
+            if (categoria1.Equals("vertebrado"))
+            {
+                if (categoria2.Equals("ave"))
+                {
+                    if (categoria3.Equals("carnivoro")) { Console.WriteLine("aguia"); }
+                    else
+                    if (categoria3.Equals("onivoro")) { Console.WriteLine("pomba"); }
+                }
+                else
+                if (categoria2.Equals("mamifero"))
+                {
+                    if (categoria3.Equals("onivoro")) { Console.WriteLine("homem"); }
+                    else
+                    if (categoria3.Equals("herbivoro")) { Console.WriteLine("vaca"); }
+                }
+
+            }
+            else
+        if (categoria1.Equals("invertebrado"))
+            {
+                if (categoria2.Equals("inseto"))
+                {
+                    if (categoria3.Equals("hematofago")) { Console.WriteLine("pulga"); }
+                    else
+                    if (categoria3.Equals("herbivoro")) { Console.WriteLine("lagarta"); }
+                }
+                else
+                if (categoria2.Equals("anelideo"))
+                {
+                    if (categoria3.Equals("hematofago")) { Console.WriteLine("sanguessuga"); }
+                    else
+                    if (categoria3.Equals("onivoro")) { Console.WriteLine("minhoca"); }
+                }
+            }
+    }
+
+}
